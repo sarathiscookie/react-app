@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from 'react';
+import ClassComponent from './Components/ClassComponent';
+import FunctionalComponent from './Components/FunctionalComponent';
+import { MultiClassComponentOne, MultiClassComponentTwo} from './Components/MultiClassComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h4>Hello! Welcome to React application</h4>
+      <h5>Processing...</h5>
+      <ClassComponent />
+      <FunctionalComponent />
+      <MultiClassComponentOne />
+      <MultiClassComponentTwo />
     </div>
   );
 }
