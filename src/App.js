@@ -1,6 +1,8 @@
 import { Component } from 'react';
 import ClassComponent from './Components/ClassComponent';
+import ClickComponent from './Components/ClickComponent';
 import FunctionalComponent from './Components/FunctionalComponent';
+import HoverComponent from './Components/HoverComponent';
 import { MultiClassComponentOne, MultiClassComponentTwo} from './Components/MultiClassComponent';
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <FunctionalComponent />
       <MultiClassComponentOne />
       <MultiClassComponentTwo />
+      <ClickComponent />
+      <HoverComponent />
     </div>
   );
 }
