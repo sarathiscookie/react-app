@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import HigherOrderComponent from './HigherOrderComponent'
 
-class ClickComponent extends Component {
+class ClickCounterComponent extends Component {
 
   render() {
     const {count, incrementCount} = this.props;
@@ -15,4 +15,4 @@ class ClickComponent extends Component {
   }
 }
 
-export default HigherOrderComponent(ClickComponent);
+export default HigherOrderComponent(ClickCounterComponent);

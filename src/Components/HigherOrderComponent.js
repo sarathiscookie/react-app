@@ -1,6 +1,6 @@
 import React from "react";
 
-const UpdateComponent = OriginalComponent => {
+const UpdateCounterComponent = OriginalComponent => {
     class HigherOrderComponent extends React.Component {
         constructor(props) {
             super(props);
@@ -21,4 +21,4 @@ const UpdateComponent = OriginalComponent => {
     return HigherOrderComponent
 }
 
-export default UpdateComponent
+export default UpdateCounterComponent
