@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import HigherOrderComponent from './HigherOrderComponent'
+import higherOrderComponent from './HigherOrderComponent'
 
 class HoverCounterComponent extends Component {
   render() {
@@ -15,4 +15,4 @@ class HoverCounterComponent extends Component {
   }
 }
 
-export default HigherOrderComponent(HoverCounterComponent)
+export default higherOrderComponent(HoverCounterComponent)

@@ -1,6 +1,6 @@
 import React from "react";
 
-const UpdateCounterComponent = OriginalComponent => {
+const higherOrderComponent = WrappedComponent => {
     class HigherOrderComponent extends React.Component {
         constructor(props) {
             super(props);
@@ -15,10 +15,10 @@ const UpdateCounterComponent = OriginalComponent => {
         }
 
         render() {
-            return <OriginalComponent count={this.state.count} incrementCount={this.incrementCount}/>
+            return <WrappedComponent count={this.state.count} incrementCount={this.incrementCount}/>
         }
     }
     return HigherOrderComponent
 }
 
-export default UpdateCounterComponent
+export default higherOrderComponent

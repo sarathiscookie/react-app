@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import HigherOrderComponent from './HigherOrderComponent'
+import higherOrderComponent from './HigherOrderComponent'
 
 class ClickCounterComponent extends Component {
 
@@ -15,4 +15,4 @@ class ClickCounterComponent extends Component {
   }
 }
 
-export default HigherOrderComponent(ClickCounterComponent);
+export default higherOrderComponent(ClickCounterComponent);
