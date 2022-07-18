@@ -4,6 +4,8 @@ import ClickCounterComponent from './Components/ClickCounterComponent';
 import FunctionalComponent from './Components/FunctionalComponent';
 import HoverCounterComponent from './Components/HoverCounterComponent';
 import { MultiClassComponentOne, MultiClassComponentTwo} from './Components/MultiClassComponent';
+import PropsComponent from './Components/PropsComponent';
+import EventHandlerSetStateComponent from './Components/EventHandlerSetStateComponent';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <MultiClassComponentTwo />
       <ClickCounterComponent />
       <HoverCounterComponent />
+      <EventHandlerSetStateComponent />
+      <PropsComponent text="Hello I am props!"/>
     </div>
   );
 }
