@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class PropsComponent extends Component {
+export default class Ex1PropsComponent extends Component {
   constructor(props){
     super(props);
   }  

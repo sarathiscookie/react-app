@@ -4,8 +4,10 @@ import ClickCounterComponent from './Components/ClickCounterComponent';
 import FunctionalComponent from './Components/FunctionalComponent';
 import HoverCounterComponent from './Components/HoverCounterComponent';
 import { MultiClassComponentOne, MultiClassComponentTwo} from './Components/MultiClassComponent';
-import PropsComponent from './Components/PropsComponent';
-import EventHandlerSetStateComponent from './Components/EventHandlerSetStateComponent';
+import Ex1PropsComponent from './Components/Ex1PropsComponent';
+import Ex2OnChangeOnSubmitComponent from './Components/Ex2OnChangeOnSubmitComponent';
+import Ex3OnChangeOnSubmitComponent from './Components/Ex3OnChangeOnSubmitComponent';
+import Ex4EventHandlerSetStateComponent from './Components/Ex4EventHandlerSetStateComponent';
 
 function App() {
   return (
@@ -18,8 +20,10 @@ function App() {
       <MultiClassComponentTwo />
       <ClickCounterComponent />
       <HoverCounterComponent />
-      <EventHandlerSetStateComponent />
-      <PropsComponent text="Hello I am props!"/>
+      <Ex1PropsComponent text="Hello I am props!"/>
+      <Ex2OnChangeOnSubmitComponent />
+      <Ex3OnChangeOnSubmitComponent />
+      <Ex4EventHandlerSetStateComponent />
     </div>
   );
 }

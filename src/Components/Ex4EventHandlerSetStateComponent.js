@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class EventHandlerSetStateComponent extends Component {
+class Ex4EventHandlerSetStateComponent extends Component {
   constructor(props) {
     super(props);
 
@@ -41,4 +41,4 @@ class EventHandlerSetStateComponent extends Component {
   }
 }
 
-export default EventHandlerSetStateComponent
+export default Ex4EventHandlerSetStateComponent
